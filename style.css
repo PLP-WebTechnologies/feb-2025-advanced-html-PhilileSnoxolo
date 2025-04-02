@@ -1,0 +1,148 @@
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body and font styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header styling */
+header {
+    background-color: #4CAF50;
+    color: rgb(40, 208, 250);
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 10px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Section styling */
+section {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for ordered list */
+ol {
+    padding-left: 20px;
+}
+
+ol li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Styling for the image section */
+img {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+/* Form styling */
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"], input[type="email"], textarea, select {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #777;
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    table {
+        font-size: 0.9rem;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    form {
+        grid-template-columns: 1fr;
+    }
+}
